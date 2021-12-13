@@ -1,0 +1,32 @@
+.full-screen {
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+}
+.dark05 {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.login-container {
+  height: 50%;
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.login-left {
+  flex-basis: 50%;
+  background-color: rgba(255, 196, 0, 0.8);
+}
+.login-form {
+  flex-basis: 50%;
+  background-color: white;
+}
+.footer-nav {
+  position: fixed;
+  bottom: 20%;
+  left: 50%;
+  transform: translate(-50%);
+}
